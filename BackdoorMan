@@ -429,7 +429,10 @@ class Servicer:
 		# +=========================================+
 		try:
 			r = requests.post('https://shellray.com/upload', files={'file':self.file})
-			data = r.json()
+			try:
+				data = r.json()
+			except ValueError:
+				return False
 			if not data['infected']:
 				return False
 			return data

@@ -27,7 +27,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
-__version__     = '2.3.1'
+__version__     = '2.3.2'
 __author__      = 'Yassine Addi <yassineaddi.dev(at)gmail(dot)com>'
 __description__ = 'A toolkit that helps you find malicious, hidden and suspicious PHP scripts and shells in a chosen destination.\r\nAuthor: %s.\r\nNOTE: This tool does not require Internet connection but it is highly recommended to benefit from all features.' % __author__
 __usage__       = '%prog [options] destination1 [destination2 ...]'

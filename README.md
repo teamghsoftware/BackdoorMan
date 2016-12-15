@@ -27,7 +27,7 @@ The main purpose of `BackdoorMan` is to help web-masters and developers to disco
 - requests module
 
 ### Version
-`v2.3.1`
+`v2.3.2`
 
 ### Author
 Yassine Addi
@@ -83,6 +83,7 @@ v2.3.1    - use of custom parser instead of reg-ex to detect backticks (executio
           - rename options.
           - add `-o, --output` option.
           - add/modify comments.
+v2.3.2    - fix: No JSON object could be decoded
 ```
 
 ### TODO
